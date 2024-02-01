@@ -1,0 +1,41 @@
+body {
+    background-color: bisque;
+}
+
+div {
+    
+    padding: 1rem;
+    justify-content: center;
+}
+
+div#la {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin-left: 16rem;
+    border-collapse:collapse;
+    border-spacing:0 ;
+    border: 1px solid #757575;
+}
+
+table tr{
+    padding: 1rem;
+}
+
+table thead tr {
+    background-color: cornflowerblue;
+    color:white;
+    padding: 1rem;
+}
+
+table td {
+    text-align: center;
+    border: 1px solid #757575;
+    padding: 1rem;
+}
+
+table tbody tr:hover {
+    background-color: rgba(0, 0, 185, .5);
+}

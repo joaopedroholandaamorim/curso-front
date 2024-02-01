@@ -1,0 +1,19 @@
+/*                                                  
+    img {
+        filter: grayscale(100%);
+        filter: blur(5px);
+        filter: brightness(50%);
+        filter: invert(100%);
+        filter: opacity(50%);
+        filter: drop-shadow(8px 8px 10px #757575);
+    }
+
+    para colocar todos os filtro juntos é so fazer
+    1-  filter: grayscale(100%) blur(5px);
+
+    --------------------------------------------------------
+
+    <iframe> -> colocar uma pagina dentro de outra pagina
+
+
+*/
