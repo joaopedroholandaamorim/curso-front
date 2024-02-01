@@ -80,10 +80,10 @@ tbody tr td:first-child {
     text-align: left;
 }
 
-tfoot tr td{
+tfoot tr {
     padding: 1px;
-    
-    border-radius: 5px;
+    border: solid 2px black;
+    border-radius: 50px;
 }
 
 
