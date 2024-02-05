@@ -11,7 +11,5 @@
 
 ## atualiza
 
-## git branch
-
-- ramificações
+## branch
 
