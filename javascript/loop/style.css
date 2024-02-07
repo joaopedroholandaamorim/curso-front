@@ -1,5 +1,6 @@
 body {
     margin: 0%;
+    background-color: #4F594E;
 }
 
 
@@ -28,7 +29,7 @@ h1 {
     display: block;
     float: left;
     width: 50%;
-    height:29vw;
+    height:100%;
     background-color: #4F594E;
 }
 
@@ -67,7 +68,7 @@ button:hover {
     text-align: center;
     margin: 20px auto;
     width: 30%;
-    height: 7%;
+    height: 10%;
     padding-top: 8px;
 }
 
