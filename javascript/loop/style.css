@@ -1,0 +1,79 @@
+body {
+    margin: 0%;
+}
+
+
+header {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: -20px;
+    border-bottom: 1px solid #293327;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    margin-right: 260px;
+    color: #56974c;
+    font-size: 5.5rem;
+    width: max-content;
+    float: right;
+}
+
+.mei {
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 50%;
+    height:29vw;
+    background-color: #4F594E;
+}
+
+div#esquerda {
+    border-right: 2px solid #293327;
+}
+
+.entrada {
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #444e42;
+}
+
+button {
+    text-align: center;
+    margin: 20px auto;
+    background-color: #4F594E;
+    border: 0px;
+    display: block;
+    border-radius: 100px;
+}
+
+button:hover {
+    background-color: #444e42;
+}
+
+.resu {
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(22, 22, 22), rgb(170, 166, 166));
+    display: block;
+    border-radius: 20px;
+    background-color: #444e42;
+    text-align: center;
+    margin: 20px auto;
+    width: 30%;
+    height: 7%;
+    padding-top: 8px;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+
