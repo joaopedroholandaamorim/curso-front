@@ -55,21 +55,20 @@ button {
 }
 
 button:hover {
-    background-color: #444e42;
+    background-color: #42434e;
 }
 
 .resu {
-    border-width: 2px;
-    border-style: inset;
-    border-color: -internal-light-dark(rgb(22, 22, 22), rgb(170, 166, 166));
-    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
     border-radius: 20px;
     background-color: #444e42;
-    text-align: center;
-    margin: 20px auto;
     width: 30%;
-    height: 10%;
-    padding-top: 8px;
+
+
+
+    
 }
 
 ::placeholder {
