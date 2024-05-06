@@ -20,7 +20,6 @@ header h1 {
 div {
     margin: 50px auto;
     background-color: #B0F0AF;
-    height: 20%;
     width: 80%;
     border-radius: 5px;
     display:table;
@@ -83,7 +82,6 @@ tbody tr td:first-child {
 tfoot tr {
     padding: 1px;
     border: solid 2px black;
-    border-radius: 50px;
 }
 
 

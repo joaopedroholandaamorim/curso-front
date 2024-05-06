@@ -18,6 +18,7 @@ header {
 }
 
 div#iv1{
+    background-color: #673AB7;
     height: 60%;
     width: 40%;
     justify-content:left;
@@ -42,9 +43,10 @@ p {
 }
 
 div#iv2{
-    margin-left: 40%;
+    background-color: #673AB7;
+    margin-left: 32%;
     height: 60%;
-    width: 40%;
+    width: 25%;
     justify-content:left;
     display: flex;
 }
@@ -74,7 +76,7 @@ img#camera {
     margin-top: 1%;
     margin-left: 21%;
     padding-left: 30px;
-    padding-top: 5%;
+    padding-top: 4%;
     padding-bottom: 5%;
 }
 
