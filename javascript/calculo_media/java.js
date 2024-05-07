@@ -4,6 +4,6 @@ function obtermedia() {
     var c = parseInt(document.getElementById("c").value);
     var media = (a + b + c) / 3;
     document.getElementById("resultado").innerHTML = "resultado da media: " + media;
-    console.log(media);
+    
 }
 
