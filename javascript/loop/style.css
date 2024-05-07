@@ -64,11 +64,7 @@ button:hover {
     padding: 10px;
     border-radius: 20px;
     background-color: #444e42;
-    width: 30%;
-
-
-
-    
+    width: 30%;  
 }
 
 ::placeholder {

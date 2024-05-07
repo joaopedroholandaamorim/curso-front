@@ -20,6 +20,4 @@
                 document.getElementById("resultado").innerHTML = "sinal incorreto!!";
                 break;
         }
-
-        console.log(a+b);
     }
