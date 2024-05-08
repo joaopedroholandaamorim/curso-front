@@ -7,16 +7,11 @@ function calc_media(array){
     return media;
 }
 
-
-
-
 document.getElementById('formulario').addEventListener('submit', function( evento ) {
     evento.preventDefault();
-
     if(this.getAttribute('class').match(/erro/)){
         return false;
     }
-
     let inputnumeros = document.querySelectorAll('.numeros');
     let array = [];
     inputnumeros.forEach(function(input){ // pecorre a Nodlist
@@ -25,14 +20,12 @@ document.getElementById('formulario').addEventListener('submit', function( event
     });
     console.log(array);
     document.getElementById('res').innerHTML = "O resultado da média é : " + calc_media(array);
-
 });
 
 
 
 
 let inputs = document.querySelectorAll('.numeros');
-
 for(let emfoco of inputs){
     valida(emfoco);
 }
@@ -44,7 +37,7 @@ for(let emfoco of inputs){
 function valida(elemento){
     elemento.addEventListener('blur', function(event){
         event.preventDefault();
-        if(this.value  == ""){
+        if((this.value  == "") || this.value < 0 || this.value > 10){
             document.querySelector('.error').innerHTML = "verifique o preenchiento do campos em vermelho";
             this.classList.add('er');
             this.parentNode.classList.add('erro');
