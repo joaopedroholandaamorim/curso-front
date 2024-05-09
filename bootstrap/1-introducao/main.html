@@ -3,22 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap_arq/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap_arq/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <h1>Titulo 1</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est velit minus eligendi beatae quae fugit iste quisquam, assumenda iure veritatis doloremque totam voluptatibus et explicabo at doloribus perspiciatis cupiditate ipsa?</p>
-            </div>
-            <div class="col">
-                <h1>Titulo 2</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, distinctio harum, unde inventore magnam esse nobis dignissimos earum excepturi eveniet est necessitatibus quas rem saepe exercitationem. Quod nostrum voluptatem assumenda.</p>
+    <header id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h1>Logo</h1>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="#produtos" class="nav-link">Produtos</a></li>
+                        <li class="nav-item"><a href="#contatos" class="nav-link">Contatos</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+
+
+
+    <section id="sobre">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <h1>Titulo 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est velit minus eligendi beatae quae fugit iste quisquam, assumenda iure veritatis doloremque totam voluptatibus et explicabo at doloribus perspiciatis cupiditate ipsa?LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Est velit minus eligendi beatae quae fugit iste quisquam, assumenda iure veritatis doloremque totam voluptatibus et explicabo at d]t minus eligendi beatae quae fugit iste quisquam, assumenda iure veritatis doloremque totam voluptatibus et explicabo at doloribus perspiciatis cupiditate ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est velit minus eligendi beatae quae fugit iste quisquam, assumenda iure veritatis doloremque totam voluptatibus et explicabo at doloribus perspiciatis cupiditate ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est velit minus eligendi beatae quae fugit iste quisquam, assumenda iure veritatis doloremque totam voluptatibus et explicabo at doloribus perspiciatis cupiditate ipsa? ipsum dolor sit amet consectetur adipisicing elit. Est velit minus eligendi beatae quae fugit iste quisquam, assumenda iure veritatis doloremque totam voluptatibus et explicabo at doloribus perspiciatis cupiditate ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est velit minus eligendi beatae quae fugit iste quisquam, assumenda iure veritatis doloremque totam voluptatibus et explicabo at doloribus perspiciatis cupiditate ipsa?</p>
+                    <a href="" class="btn btn-lg btn-success">Botão</a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <img src="img/pexels-mehmet-teke-1243572710-23285793.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2>Produtos</h2>
+                    <div class="card">
+                        <img src="img/pexels-mehmet-teke-1243572710-23285793.jpg" alt="" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">produto 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/pexels-mehmet-teke-1243572710-23285793.jpg" alt="" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">produto 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/pexels-mehmet-teke-1243572710-23285793.jpg" alt="" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">produto 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatos">
+        <div class="container-fluid" >
+            <div class="row">
+                <div class="col">
+                    <h2>Contato</h2>
+                    <p>ficou interessado? Preencha os campos do formulário para receber uma cotação</p>
+                </div>
+                <div class="col">
+                    <form class="form">
+                        <div class="input-group">
+                            <input type="text" placeholder="digite seu nome" class="form-control" name="nome">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="digite seu email" class="form-control" name="email">
+                        </div>
+                        <div class="input-group">
+                            <textarea  class="form-control" rows="5"> </textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar cotação</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script href="bootstrap_arq/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

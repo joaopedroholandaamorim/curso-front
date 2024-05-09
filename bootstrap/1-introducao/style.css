@@ -1,0 +1,16 @@
+.card {
+    width: 31%;
+    float: left;
+    margin: 3px;
+}
+
+header#home {
+    background-color: #B5D7FA;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: aliceblue;
+    padding: 35px;
+    margin-bottom: 20px;
+}
