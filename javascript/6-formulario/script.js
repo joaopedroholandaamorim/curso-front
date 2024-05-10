@@ -31,16 +31,16 @@ for(let emfoco of inputs){
 function valida(elemento){
     elemento.addEventListener('focusout', function(event){
         event.preventDefault();
-        if((this.value  == "") || this.value < 0 || this.value > 10){
+        if((this.value  != "") && (this.value >= 0 || this.value <= 10)){
+            document.querySelector('.error').innerHTML = "";
+            this.classList.remove('er');
+            this.parentNode.classList.remove('erro');
+        }
+        else{
             document.querySelector('.error').innerHTML = "verifique o preenchiento do campos em vermelho";
             this.classList.add('er');
             this.parentNode.classList.add('erro');
             return false;
-        }
-        else{
-            document.querySelector('.error').innerHTML = "";
-            this.classList.remove('er');
-            this.parentNode.classList.remove('erro');
         }
     });
 }
