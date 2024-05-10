@@ -23,19 +23,13 @@ document.getElementById('formulario').addEventListener('submit', function( event
 });
 
 
-
-
 let inputs = document.querySelectorAll('.numeros');
 for(let emfoco of inputs){
     valida(emfoco);
 }
 
-
-
-
-
 function valida(elemento){
-    elemento.addEventListener('blur', function(event){
+    elemento.addEventListener('focusout', function(event){
         event.preventDefault();
         if((this.value  == "") || this.value < 0 || this.value > 10){
             document.querySelector('.error').innerHTML = "verifique o preenchiento do campos em vermelho";

@@ -5,8 +5,10 @@
 }
 
 header#home {
+    display: flex;
     background-color: #B5D7FA;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 section {
