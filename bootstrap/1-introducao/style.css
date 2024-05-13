@@ -16,3 +16,11 @@ section {
     padding: 35px;
     margin-bottom: 20px;
 }
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100% !important;
+}
