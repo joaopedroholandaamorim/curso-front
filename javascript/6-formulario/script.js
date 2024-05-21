@@ -31,7 +31,7 @@ for(let emfoco of inputs){
 function valida(elemento){
     elemento.addEventListener('focusout', function(event){
         event.preventDefault();
-        if((this.value  != "") && (this.value >= 0 || this.value <= 10)){
+        if((this.value  != "") && (this.value >= 0 && this.value <= 10)){
             document.querySelector('.error').innerHTML = "";
             this.classList.remove('er');
             this.parentNode.classList.remove('erro');
