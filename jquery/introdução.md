@@ -15,7 +15,7 @@
     - $('.class a').addclass('active')
     - $('.class a').removeclass('active')
 
-## evento 
+## manipulação de eventos
     $('.class').click(function() {
         $(this).css({
             'color' : '#ff0000' ,
