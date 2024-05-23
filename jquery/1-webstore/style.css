@@ -84,8 +84,9 @@ h3 {
     width: 100%;
 }
 
-.form-control {
+.row .form-control {
     background-color: #3C8BCE;
+    position: relative;
 }
 
 .col-md-4 .btn {

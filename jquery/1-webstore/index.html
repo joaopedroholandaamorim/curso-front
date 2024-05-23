@@ -8,27 +8,35 @@
     <title>Webstore</title>
 </head>
 <body>
+
+    <!-- header -->
     <header id="home">
         <div class="container">
             <h1>Webstore</h1>
         </div>
     </header>
+
+    <!-- navegação -->
     <nav>
         <div class="container">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#produtos">Produtos</a></li>
-                <li><a href="">Sobre nós</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="" rel="sobre" class="nav-modal-open">Sobre nós</a></li>
+                <li><a href="" rel="contato" class="nav-modal-open">Contato</a></li>
             </ul>
         </div>
     </nav>
+
+    <!-- foto grande -->
     <div class="caixa">
         <div class="overlay">
             <H2>Ecommerce HTML template</H2>
             <p>HTML Template can be converted into your desired CMS treme.</p>
         </div>
     </div>
+
+    <!-- produtos -->
     <section id="produtos">
         <h3>Destaques</h3>
         <div class="container">
@@ -88,19 +96,99 @@
         </div>
     </section>
 
-    <section id="contato" class="novidades">
+    <!-- novidades -->
+    <section class="novidades">
         <h4>Receba novidades</h4>
         <p>insira seus dados abaixo para receber informações atualizadas de nosssos produtos </p>
         <div class="row">
             <div class="col-md-4">
-                <input type="text" id="endereco" placeholder="digite seu email" class="form-control" name="nome">
+                <input type="text" id="email" placeholder="digite seu email" class="form-control" name="email">
             </div>
             <div class="col-md-4">
-                <button type="submit" class="btn btn-lg btn-success">INSCREVA-SE</button>
+                <button type="submit" class="btn btn-lg btn-success" id="form-submit">INSCREVA-SE</button>
             </div>
         </div>
     </section>
     
+    <!-- Modal Body -->
+    <!-- estrutura do modal -->
+    <div
+        class="modal fade"
+        id="modalId"
+        tabindex="-1"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        
+        role="dialog"
+        aria-labelledby="modalTitleId"
+        aria-hidden="true"
+    >
+        <div
+            class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+            role="document"
+        >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">
+                        Modal title
+                    </h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">Body</div>
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                    >
+                        Close
+                    </button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal sobre -->
+    <div id="sobre" class="visually-hidden">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti possimus praesentium asperiores eligendi amet voluptates, quis, reprehenderit aut, nulla dicta placeat quae pariatur nostrum! Ab accusamus distinctio consequuntur facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quas repellat, laboriosam repellendus enim cupiditate nisi cumque eligendi maxime in accusamus ex nam dignissimos at! Quam, corrupti! Architecto, provident sed.
+    </div>
+
+    <!-- modal contato -->
+    <div id="contato" class="visually-hidden">
+        <form action="" class="form">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    class="form-control"
+                    placeholder="digite seu nome"
+                    aria-describedby="helpnome"
+                />
+                <small id="helpnome" class="text-muted">digite um nome valido</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="digite seu email"
+                    aria-describedby="helpemail"
+                />
+                <small id="helpemail" class="text-muted">digite um email  valido</small>
+            </div>
+        </form>
+    </div>
 
     <script src="bootstrap_arq/js/bootstrap.bundle.min.js"></script>
     <script src="jquery-3.7.1.min.js"></script>
