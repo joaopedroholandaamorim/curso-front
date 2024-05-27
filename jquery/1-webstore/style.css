@@ -126,3 +126,13 @@ h3 {
         padding: 15px;
     }
 
+    .invalid {
+       border-color: #ff0000;
+    }
+
+    .text-muted {
+        display: none;
+        padding-left: 10px;
+        color: #ff0000 !important;
+    }
+

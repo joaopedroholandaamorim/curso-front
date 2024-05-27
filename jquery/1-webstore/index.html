@@ -140,16 +140,6 @@
                     ></button>
                 </div>
                 <div class="modal-body">Body</div>
-                <div class="modal-footer">
-                    <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                    >
-                        Close
-                    </button>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
             </div>
         </div>
     </div>
@@ -172,26 +162,92 @@
                     placeholder="digite seu nome"
                     aria-describedby="helpnome"
                 />
-                <small id="helpnome" class="text-muted">digite um nome valido</small>
+                <small id="helpnome" class="text-muted ">!!! digite um nome valido</small>
             </div>
 
             <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+                <label for="e-mail" class="form-label">Email</label>
                 <input
                     type="text"
                     name="email"
-                    id="email"
+                    id="e-mail"
                     class="form-control"
-                    placeholder="digite seu email"
-                    aria-describedby="helpemail"
+                    placeholder="digite seu e-mail"
+                    aria-describedby="helpe-mail"
                 />
-                <small id="helpemail" class="text-muted">digite um email  valido</small>
+                <small id="helpe-mail" class="text-muted ">!!! digite um email valido</small>
             </div>
+
+            <div class="mb-3">
+                <label for="data" class="form-label">data</label>
+                <input
+                    type="text"
+                    name="data"
+                    id="data"
+                    class="form-control"
+                    placeholder="digite a data de nascimento"
+                    aria-describedby="helpdata"
+                />
+                <small id="helpdata" class="text-muted ">!!! digite uma data valida</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="time" class="form-label">time</label>
+                <input
+                    type="text"
+                    name="time"
+                    id="time"
+                    class="form-control"
+                    placeholder="digite um tempo valido"
+                    aria-describedby="helptime"
+                />
+                <small id="helptime" class="text-muted ">!!! digite um tempo valido</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="cep" class="form-label">Cep</label>
+                <input
+                    type="text"
+                    name="cep"
+                    id="cep"
+                    class="form-control"
+                    placeholder="digite o cep"
+                    aria-describedby="helpcep"
+                />
+                <small id="helpcep" class="text-muted ">!!! digite um cep valido</small>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">telefone</label>
+                <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    class="form-control"
+                    placeholder="digite seu telefone"
+                    aria-describedby="helpphone"
+                />
+                <small id="helpphone" class="text-muted ">!!! digite um telefone valido</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="cpf" class="form-label">cpf</label>
+                <input
+                    type="text"
+                    name="cpf"
+                    id="cpf"
+                    class="form-control"
+                    placeholder="digite seu cpf"
+                    aria-describedby="helpcpf"
+                />
+                <small id="helpcpf" class="text-muted ">!!! digite um cpf valido</small>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
         </form>
     </div>
 
     <script src="bootstrap_arq/js/bootstrap.bundle.min.js"></script>
     <script src="jquery-3.7.1.min.js"></script>
     <script src="script.js"></script>
+    <script src="./dist/jquery.mask.min.js"></script>
 </body>
 </html>
