@@ -68,34 +68,39 @@ jQuery(function($){
        }    
     });
 
-    $('body').on('blur','#nome', function(){
-        validate($(this))
-    });
+    /*
+    validate
+    */
+    {
+        $('body').on('blur','#nome', function(){
+            validate($(this))
+        });
 
-    $('body').on('blur','#e-mail', function(){
-        validate($(this))
-    });
+        $('body').on('blur','#e-mail', function(){
+            validate($(this))
+        });
 
-    $('body').on('blur','#data', function(){
-        validate($(this))
-    });
+        $('body').on('blur','#data', function(){
+            validate($(this))
+        });
 
-    $('body').on('blur','#time', function(){
-        validate($(this))
-    });
+        $('body').on('blur','#time', function(){
+            validate($(this))
+        });
 
-    $('body').on('blur','#cep', function(){
-        validate($(this)) 
-    });
+        $('body').on('blur','#cep', function(){
+            validate($(this)) 
+        });
 
-    $('body').on('blur','#phone', function(){
-        validate($(this))
-    });
+        $('body').on('blur','#phone', function(){
+            validate($(this))
+        });
 
-    $('body').on('blur','#cpf', function(){
-        validate($(this))
-    });
-
+        $('body').on('blur','#cpf', function(){
+            validate($(this))
+        });
+    }
+    
     /*
     mascaras
     */
