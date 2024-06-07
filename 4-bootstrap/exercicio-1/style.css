@@ -1,0 +1,126 @@
+header {
+    background-color: #0060B1;
+    display: flex;
+    width: 100%;
+    height: 6.5rem;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.button-barras {
+    height: 43px;
+    width: 53px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-image:url('img/image.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.button-pessoa {
+    height: 35px;
+    width: 31px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-image:url('img/homen.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.button-ouvidoria {
+    height: 29px;
+    width: 26px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-image:url('img/ouvidoria.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.button-coracao {
+    height: 26px;
+    width: 26px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-image:url('img/coracao.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.button-carrinho {
+    height: 28px;
+    width: 33px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-image:url('img/carrinho.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.link-kabum {
+    margin-left: 25px;
+}
+
+
+
+.col-lg {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.pesquisa {
+    padding-left: 15px;
+    border-radius: 3px;
+    border: 1px;
+    height: 35px;
+    width: 500px;
+}
+
+.img-perfil {
+    margin-left: 70px;
+}
+
+p {
+    margin-left: 7px;
+    color: #C4C4C4;
+}
+
+.link-conta {
+    color: #f1f7fc;
+    text-decoration: none;
+}
+
+.link-conta:hover {
+    text-decoration:underline;
+}
+
+
+
+
+
+
+

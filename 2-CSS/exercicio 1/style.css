@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    background-color: #E2EEE0;
+    text-align: center;
+    align-items: center;
+}
+ 
+header {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 105%;
+    margin-left: -1%;
+    margin-top: -7px;
+    border-bottom: #DADCE0 1px;
+    height: 90px;
+    display: flex;
+}
+
+div#iv1{
+    background-color: #673AB7;
+    height: 60%;
+    width: 40%;
+    justify-content:left;
+    display: flex;
+}
+
+p {
+    font-size:large;
+    color: #201010;
+    white-space: nowrap;
+    padding-left: 20px;
+}
+
+.iconarq{
+    margin-top: 1%;
+    padding-left: 2%;
+}
+
+.icon{
+    margin-bottom: 1%;
+    
+}
+
+div#iv2{
+    background-color: #673AB7;
+    margin-left: 32%;
+    height: 60%;
+    width: 25%;
+    justify-content:left;
+    display: flex;
+}
+
+button#enviar{
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #673AB7;
+    border-radius: 5px;
+    color:white;
+    height: 70%;
+}
+
+img#camera {
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.perguntas {
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 56%;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 21%;
+    padding-left: 30px;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+.enter{
+    width: 30%;
+    height: 10%;
+    border-style:dotted;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 5px;
+}
+

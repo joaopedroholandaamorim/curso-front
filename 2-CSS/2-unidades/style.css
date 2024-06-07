@@ -1,0 +1,26 @@
+/* 
+ABSOLUTAS -> DEFINE VALORES EXCLUSIVOS QUE NAO PODEM SER MUITOS FLEXIBILIZADOS
+    - PIXELS
+    - PT
+RELATIVAS -> COM AS UNIADES RELATIVAS VC CONSEGUE DINAMIZAR A APLICAÇÃO AS UNIDADES
+    -PORCENTAGEM = SE VC QUISER PARTI UMA TABELA NO MEIO USE 50%
+    -EM
+        EX
+            UL {
+                FONT-SIZE: 20PX;
+            }
+
+            UL LI {
+                FONT-SIZE: .8EM; -> EQUIVALE A 80% DOS PX ORIGINAIS A UL
+            }
+    -REM (ROOT EM)
+        EX
+            HTML {
+                FONT-SIZE: 62.5% -> EQUIVALE A 10PX
+            }
+
+            UL LI {
+                FONT-SIZE: 1.6REM; ->EQUICALE A 16 PIX
+            }
+
+*/

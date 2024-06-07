@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap_arq/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Webstore</title>
+</head>
+<body>
+
+    <!-- header -->
+    <header id="home">
+        <div class="container">
+            <h1>Webstore</h1>
+        </div>
+    </header>
+
+    <!-- navegação -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="" rel="sobre" class="nav-modal-open">Sobre nós</a></li>
+                <li><a href="" rel="contato" class="nav-modal-open">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- foto grande -->
+    <div class="caixa">
+        <div class="overlay">
+            <H2>Ecommerce HTML template</H2>
+            <p>HTML Template can be converted into your desired CMS treme.</p>
+        </div>
+    </div>
+
+    <!-- produtos -->
+    <section id="produtos">
+        <h3>Destaques</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme"></div>
+                        <div class="featured-item">
+                            <img src="img/p1.png" alt="item 1" class="img-fluid">
+                            <h5>produto 1</h5>
+                            <p >R$ 20,00</p>
+                            <a class="btn btn-dark">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="img/p2.png" alt="item 2" class="img-fluid">
+                            <h5>produto 2</h5>
+                            <p >R$ 20,00</p>
+                            <a class="btn btn-dark">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="img/p3.png" alt="item 3" class="img-fluid">
+                            <h5>produto 3</h5>
+                            <p >R$ 20,00</p>
+                            <a class="btn btn-dark">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="img/p1.png" alt="item 1" class="img-fluid">
+                            <h5>produto 1</h5>
+                            <p >R$ 20,00</p>
+                            <a class="btn btn-dark">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="img/p2.png" alt="item 2" class="img-fluid">
+                            <h5>produto 2</h5>
+                            <p >R$ 20,00</p>
+                            <a class="btn btn-dark">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="img/p3.png" alt="item 3" class="img-fluid">
+                            <h5>produto 3</h5>
+                            <p >R$ 20,00</p>
+                            <a class="btn btn-dark">
+                                Comprar
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- novidades -->
+    <section class="novidades">
+        <h4>Receba novidades</h4>
+        <p>insira seus dados abaixo para receber informações atualizadas de nosssos produtos </p>
+        <div class="row">
+            <div class="col-md-4">
+                <input type="text" id="email" placeholder="digite seu email" class="form-control" name="email">
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-lg btn-success" id="form-submit">INSCREVA-SE</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal Body -->
+    <!-- estrutura do modal -->
+    <div
+        class="modal fade"
+        id="modalId"
+        tabindex="-1"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        
+        role="dialog"
+        aria-labelledby="modalTitleId"
+        aria-hidden="true"
+    >
+        <div
+            class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+            role="document"
+        >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">
+                        Modal title
+                    </h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">Body</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal sobre -->
+    <div id="sobre" class="visually-hidden">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti possimus praesentium asperiores eligendi amet voluptates, quis, reprehenderit aut, nulla dicta placeat quae pariatur nostrum! Ab accusamus distinctio consequuntur facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quas repellat, laboriosam repellendus enim cupiditate nisi cumque eligendi maxime in accusamus ex nam dignissimos at! Quam, corrupti! Architecto, provident sed.
+    </div>
+
+    <!-- modal contato -->
+    <div id="contato" class="visually-hidden">
+        <form action="" class="form">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    class="form-control"
+                    placeholder="digite seu nome"
+                    aria-describedby="helpnome"
+                />
+                <small id="helpnome" class="text-muted ">!!! digite um nome valido</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="e-mail" class="form-label">Email</label>
+                <input
+                    type="text"
+                    name="email"
+                    id="e-mail"
+                    class="form-control"
+                    placeholder="digite seu e-mail"
+                    aria-describedby="helpe-mail"
+                />
+                <small id="helpe-mail" class="text-muted ">!!! digite um email valido</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="data" class="form-label">data</label>
+                <input
+                    type="text"
+                    name="data"
+                    id="data"
+                    class="form-control"
+                    placeholder="digite a data de nascimento"
+                    aria-describedby="helpdata"
+                />
+                <small id="helpdata" class="text-muted ">!!! digite uma data valida</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="time" class="form-label">time</label>
+                <input
+                    type="text"
+                    name="time"
+                    id="time"
+                    class="form-control"
+                    placeholder="digite um tempo valido"
+                    aria-describedby="helptime"
+                />
+                <small id="helptime" class="text-muted ">!!! digite um tempo valido</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="cep" class="form-label">Cep</label>
+                <input
+                    type="text"
+                    name="cep"
+                    id="cep"
+                    class="form-control"
+                    placeholder="digite o cep"
+                    aria-describedby="helpcep"
+                />
+                <small id="helpcep" class="text-muted ">!!! digite um cep valido</small>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">telefone</label>
+                <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    class="form-control"
+                    placeholder="digite seu telefone"
+                    aria-describedby="helpphone"
+                />
+                <small id="helpphone" class="text-muted ">!!! digite um telefone valido</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="cpf" class="form-label">cpf</label>
+                <input
+                    type="text"
+                    name="cpf"
+                    id="cpf"
+                    class="form-control"
+                    placeholder="digite seu cpf"
+                    aria-describedby="helpcpf"
+                />
+                <small id="helpcpf" class="text-muted ">!!! digite um cpf valido</small>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    </div>
+
+    <script src="bootstrap_arq/js/bootstrap.bundle.min.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="./dist/jquery.mask.min.js"></script>
+</body>
+</html>

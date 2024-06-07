@@ -1,0 +1,37 @@
+a {
+    color: darkgrey;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:visited {
+    color: crimson;
+}
+
+a:active{
+    background-color: black;
+}
+
+/* 
+uso o reset, para mudar a padronização do html, em que se ajuste em varios navegadores
+diferentes, onde o site vai ser visto de forma igual em todos os navegaores
+
+ex de reset
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
