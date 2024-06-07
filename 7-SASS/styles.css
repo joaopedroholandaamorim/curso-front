@@ -9,4 +9,16 @@ h2 {
   background-color: #621cd3;
 }
 
+.box-2 {
+  background-color: Darkgray;
+  box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+  color: #fff;
+}
+
+.box-3 {
+  background-color: blue;
+  box-shadow: 0 0 1px rgba(0, 0, 255, 0.25);
+  color: #fff;
+}
+
 /*# sourceMappingURL=styles.css.map */
